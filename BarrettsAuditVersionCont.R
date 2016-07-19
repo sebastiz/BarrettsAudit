@@ -1200,7 +1200,7 @@ for (i in 3:ncol(orders)) {
   ord.cache$from <- paste(ord.cache$from, '(', i-1, ')', sep='')
   ord.cache$to <- paste(ord.cache$to, '(', i, ')', sep='')
   
-  orders.plot <- rbind(orders.plot, ord.cache)
+  orders.plot <- rbind(orders.plot, ord.cache) 
   
 }
 
